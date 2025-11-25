@@ -102,7 +102,9 @@ export default function TeamPage() {
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Our Partner Teams</h1>
+              <h1 className="text-4xl md:text-5xl md:leading-14 font-bold tracking-tight">
+                Our Partner Teams
+              </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Procure Lens is powered by expert teams from leading data intelligence organizations
               </p>

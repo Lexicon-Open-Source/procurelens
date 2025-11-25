@@ -14,10 +14,12 @@ export default function ContactPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-linear-to-b from-primary/5 via-background to-background py-20 md:py-32">
+        <section className="bg-linear-to-b from-primary/5 via-background to-background py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Get in Touch</h1>
+              <h1 className="text-4xl md:text-5xl font-bold md:leading-14 tracking-tight">
+                Get in Touch
+              </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Have questions about Procure Lens? Our team is here to help you strengthen your
                 procurement compliance.

@@ -20,10 +20,10 @@ export default function DataSourcesPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-linear-to-b from-primary/5 via-background to-background py-20 md:py-32">
+        <section className="bg-linear-to-b from-primary/5 via-background to-background py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-balance">
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight md:leading-16 text-balance">
                 Powered by Trusted Global Data Sources
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">

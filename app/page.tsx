@@ -24,9 +24,9 @@ export default function HomePage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden">
-          <div className="container mx-auto px-4 py-24 md:py-32 lg:py-40">
+          <div className="container mx-auto px-4 py-24 md:py-24">
             <div className="mx-auto max-w-4xl space-y-8">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-tight">
                 Procurement intelligence that prevents risks before they happen
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl">

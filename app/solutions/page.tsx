@@ -89,10 +89,10 @@ export default function SolutionsPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-linear-to-b from-primary/5 via-background to-background py-20 md:py-32">
+        <section className="bg-linear-to-b from-primary/5 via-background to-background py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-balance">
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight md:leading-14 text-balance">
                 Comprehensive Solutions for Procurement Excellence
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
@@ -103,7 +103,7 @@ export default function SolutionsPage() {
         </section>
 
         {/* Solutions Grid */}
-        <section className="py-20">
+        <section className="py-12">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {solutions.map((solution) => (
@@ -198,7 +198,7 @@ export default function SolutionsPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {[
                 'Financial Services',
                 'Government & Public Sector',
@@ -211,7 +211,7 @@ export default function SolutionsPage() {
               ].map((industry) => (
                 <Card key={industry} className="text-center hover:shadow-lg transition-shadow">
                   <CardContent className="p-6">
-                    <p className="font-medium">{industry}</p>
+                    <p className="font-medium select-none">{industry}</p>
                   </CardContent>
                 </Card>
               ))}
